@@ -1,6 +1,8 @@
 
 <h1>DERCO TEST</h1>
 
+Autor : Cristian Tapia
+
 Generacion MS derco entrega de datos https://jsonplaceholder.typicode.com/posts 
 
 Creado con Node js y express 
