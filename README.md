@@ -15,18 +15,6 @@ http://18.237.59.132:3000/
 Implementacion CICD con Codeploy agent en AWS 
 
 
-*Se saltan build y pruebas - estos se pueden enlazar a un jenkins - circle CI : 
-
-Jenkins : http://localhost:8080/ 
-Ngrok : 
-
-Sonar :
-Ngrok : 
-
-Nexus :
-Ngrok : 
-
-
 ===========================
 
 EC2 script on creation to install the CodeDeploy Agent:
