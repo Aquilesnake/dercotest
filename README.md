@@ -3,19 +3,20 @@
 
 Autor : Cristian Tapia
 
-Generacion MS derco entrega de datos https://jsonplaceholder.typicode.com/posts 
+Generacion MS derco entrega de datos API: https://jsonplaceholder.typicode.com/posts 
 
-Creado con Node js y Express 
+Creacion de un MS que con Node js y Express, muestras datos de API.    
 
-Servicio EC2 con IPublica:
+- Servicio EC2 con IP-publica:
 
 Test de servicio: 
 http://18.237.59.132:3000/
 
-muestra json : 
+Muestra json : 
 http://18.237.59.132:3000/products
 
-muestra API :
+Muestra API 
+(https://jsonplaceholder.typicode.com/posts ) :
 http://18.237.59.132:3000/datos
 
 - Se genera Virtual Server -> EC2  
@@ -27,12 +28,12 @@ SSH 22
 HTTP 80
 TCP 3000
 
-- Se genera configuracion en IAM - Roles 
+- Se genera configuracion en IAM -> Roles 
 
 AWS Service -> AmazonEC2roleforAWSCodePloy
 Codedeploy Service -> AWSCodeDeployRole
 
-- Implementacion CICD con CodeDeploy-agent servicio de AWS 
+<h2>Implementacion CICD con CodeDeploy-agent servicio de AWS</h2> 
 
 Creacion de aplicacion - Nombre aplicacion: testderco-app, Plataforma: EC2/On-premise
 Creacion de deployment group - Nombre: testderco-app-group , Rol de servicio: arn.aws.iam:::  
@@ -41,9 +42,9 @@ Environment - Amazon E2 instance
 Tag : Name: dercotest
 Deployment Setting : allatOnce
 
-Configuracion CICD para la integracion continua y el deploy en la nube. 
+<h2>Configuracion CICD para CI/CD en la nube.</h2> 
 
-Creacion del Pipeline : 
+Creacion del Pipeline: 
 name: dercotest-app-pipeline
 source : github 2  
 nombre de coneccion a github : dercotest-app-connection
@@ -80,14 +81,13 @@ hooks:
 Se agrega carpeta scripts con scripts de instalacion, detencion y inicio para los nuevos despliegues.       
 
 
-- Implementacion de ramas en Github con metodologia Gitflow 
+<h2>Implementacion de ramas en Github con metodologia Gitflow</h2> 
 
 feature -> Develops -> Release -> Main 
 
-
 ===========================
 
-Instalacion CodeDeploy: 
+<h2>Instalacion CodeDeploy:</h2> 
 
 ===========================
 
@@ -121,7 +121,7 @@ sudo yum erase codedeploy-agent
 
 ===========================
 
-Webgrafía: 
+<h2>Webgrafía:</h2>
 
 ===========================
 
