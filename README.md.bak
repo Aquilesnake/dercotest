@@ -1,31 +1,17 @@
 
 <h1>DERCO TEST</h1>
 
-Generacion MS derco entrega de datos https://jsonplaceholder.typicode.com/posts 
-
-Creado con Node js y express 
-
-Servicio con ip publica en :
 
 
-EC2 con ip - publica activa : 
+# nodejs-express-on-aws-ec2
 
-http://18.237.59.132:3000/
+```
+ApplicationStop failed with exit code 1
+```
 
-Implementacion CICD con Codeploy agent en AWS 
-
-
-*Se saltan build y pruebas - estos se pueden enlazar a un jenkins - circle CI : 
-
-Jenkins : http://localhost:8080/ 
-Ngrok : 
-
-Sonar :
-Ngrok : 
-
-Nexus :
-Ngrok : 
-
+```
+The overall deployment failed because too many individual instances failed deployment, too few healthy instances are available for deployment, or some instances in your deployment group are experiencing problems.
+```
 
 ===========================
 
